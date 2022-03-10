@@ -1,6 +1,6 @@
-import CardList from "./Component/CardList";
-import Header from "./Component/Header";
-import SubHead from "./Component/SubHead";
+import CardList from "../Component/CardList";
+import Header from "../Component/Header";
+import SubHead from "../Component/SubHead";
 
 export default function Home() {
   return (
