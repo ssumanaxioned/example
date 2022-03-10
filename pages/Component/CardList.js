@@ -46,7 +46,7 @@ export default function CardList() {
     }
   ]
   return (
-    <div className="w-4/5 pb-4 mx-auto space-y-12">
+    <div className="w-4/5 max-w-4xl pb-4 mx-auto space-y-12  xl:w-3/6">
       {
         data.map((item) => (<Card key={item.id} info={item} />))
       }
