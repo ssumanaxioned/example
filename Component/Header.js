@@ -14,6 +14,11 @@ export default function Header() {
             Blog
           </a>
         </Link>
+        <Link href="/posts">
+          <a>
+            Posts
+          </a>
+        </Link>
       </div>
       <h2 className="font-semibold text-indigo-600 uppercase">Real-times updates demo</h2>
       <h1 className="font-extrabold text-3xl tracking-tighter md:text-5xl md:tracking-normal">Event Coverage LiveBlog</h1>
